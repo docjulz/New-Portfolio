@@ -1,0 +1,43 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+/*************************
+* Custom baseline values *
+**************************/
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@100;300;400;500;700&family=Rubik+Distressed&display=swap");
+
+@layer base {
+  body {
+    @apply bg-[#F2F9FF] text-[#1D293E] tracking-wide;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+  h1 {
+    @apply font-heading;
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+  h2 {
+    @apply text-3xl sm:text-4xl;
+    @apply font-subheading;
+  }
+  li {
+    @apply cursor-pointer;
+  }
+  button {
+    @apply shadow-md shadow-gray-400 rounded-xl p-4 uppercase bg-gradient-to-br from-[#1D293E] to-[#2D92FA] text-[#F2F9FF];
+  }
+}

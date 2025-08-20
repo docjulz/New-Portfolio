@@ -1,0 +1,27 @@
+import Head from "next/head";
+import Image from "next/image";
+import Main from "../components/Main";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Resume from "../components/Resume";
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>Julian Miller | Web Developer</title>
+        <meta name="description" content="Julian Miller Portfolio" />
+        <link rel="icon" href="/assets/Asset 1.ico" />
+      </Head>
+      {/* <Navbar /> */}
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Resume />
+      <Contact />
+    </div>
+  );
+}
