@@ -110,7 +110,7 @@ const Contact = () => {
               <form onSubmit="validateFormWithJS()">
                 <div className=" grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className=" flex flex-col">
-                    <label for="name" className=" uppercase text-sm py-2">
+                    <label htmlFor="name" className=" uppercase text-sm py-2">
                       Name
                     </label>
                     <input
@@ -123,7 +123,7 @@ const Contact = () => {
                   </div>
 
                   <div className=" flex flex-col">
-                    <label for="phone" className=" uppercase text-sm py-2">
+                    <label htmlFor="phone" className=" uppercase text-sm py-2">
                       Phone
                     </label>
                     <input
