@@ -25,8 +25,8 @@ const Main = () => {
         </div> */}
         <div className=" bg-slate-50/10 px-5 py-2 rounded-2xl mx-4">
           <p className=" uppercase text-sm tracking-widest text-gray-100 pb-4">
-            I build digital experiences that resonate — rooted in story, driven
-            by strategy, and designed for impact.
+            I build digital experiences rooted in story, driven by strategy, and
+            designed for impact.
           </p>
           <div>
             <h1 className="text-[#2D92FA]  flex justify-center items-center">

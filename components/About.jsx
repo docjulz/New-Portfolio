@@ -56,7 +56,7 @@ const About = () => {
           </p>
         </div>
         {/* Right Side */}
-        <div className="  w-full h-auto m-auto md:shadow-sm  md:shadow-gray-400 rounded-xl flex items-center justify-center p-2 md:hover:scale-105 ease-in-out duration-300 md:hover:shadow-lg hover:shadow-gray-400">
+        <div className="  w-full h-auto m-auto md:shadow-sm  md:shadow-gray-400 rounded-xl flex items-center justify-center md:hover:scale-105 ease-in-out duration-300 md:hover:shadow-lg hover:shadow-gray-400">
           <Image src={julian} alt="Profile Picture" className=" rounded-xl " />
         </div>
       </div>
