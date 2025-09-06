@@ -1,24 +1,24 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import websitePhotoTwo from "../public/assets/projects/Website 2.png";
+import websitePhotoTwo from "../public/assets/projects/SCC-Websites.webp";
 import { BsArrowRightShort, BsArrowReturnLeft } from "react-icons/bs";
 
 const websiteTwo = () => {
   return (
     <div className=" w-full">
       <div className=" w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className=" absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10"></div>
+        <div className="absolute z-1 object-cover object-[50%_0%] w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10"></div>
         <Image
           className=" absolute z-1"
           layout="fill"
           objectFit="cover"
-          // object-position="center"
+          object-position="top"
           src={websitePhotoTwo}
         />
         <div className="absolute top-[70%] w-full max-w-7xl left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className=" py-2">Law Website Template</h2>
-          <h3>HTML · CSS · JavaScript</h3>
+          <h2 className=" py-2">Websites built at South County Creative</h2>
+          <h3>Web Development for Small Business, Nonprofits, and Startups</h3>
         </div>
       </div>
 
@@ -29,22 +29,32 @@ const websiteTwo = () => {
           </p>
           <h2 className=" py-4">Overview</h2>
           <p className="pb-2">
-            This is a template for a standard Law website. It is intended to be
-            more simple and professional then other more photo centric and
-            project heavy sites. It is responsive and uses vanilla javascript
-            HTML and CSS. I included a responsive navbar and a hero section that
-            can be flexible to include text, buttons, etc.
+            As the Owner and Creative Director of South County Creative, I’ve
+            led the design and development of every website featured on our
+            Website Design page, crafting digital experiences that reflect the
+            unique identity and goals of each client. From eCommerce platforms
+            like Good Vibes Coffee & Tea and ReArtify to service-driven sites
+            such as Precision Mobile Automotive Repair and The Beauty Room, each
+            build showcases a thoughtful blend of storytelling, functionality,
+            and visual impact. I specialize in WordPress and Shopify
+            development, tailoring each site to meet the needs of small
+            businesses, nonprofits, and cultural institutions across Southern
+            California. Whether launching a new brand or revitalizing an
+            existing digital presence, my work centers on intuitive design,
+            optimized performance, and authentic engagement.
           </p>
-          <Link href="https://law-test-docjulz.vercel.app/" target="_blank">
-            <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
-          </Link>
-          <Link href="https://github.com/docjulz/LAW-TEST.git" target="_blank">
-            <button className=" px-8 py-2 mt-4">Code</button>
+          <Link
+            href="https://southcountycreative.com/website-design/"
+            target="_blank"
+          >
+            <button className=" px-8 py-2 mt-4 mr-8">
+              South County Creative
+            </button>
           </Link>
         </div>
         <div className=" col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className=" p-2">
-            <p className=" text-center font-bold pb-2">Technology Used</p>
+            <p className=" text-center font-bold pb-2">Tools I Use</p>
             <div className=" grid grid-cols-3 md:grid-cols-1">
               <p className=" flex text-gray-600 py-2 items-center">
                 <BsArrowRightShort className="mr-1" /> HTML
@@ -54,6 +64,15 @@ const websiteTwo = () => {
               </p>
               <p className=" flex text-gray-600 py-2 items-center">
                 <BsArrowRightShort className="mr-1" /> CSS
+              </p>
+              <p className=" flex text-gray-600 py-2 items-center">
+                <BsArrowRightShort className="mr-1" /> WordPress
+              </p>
+              <p className=" flex text-gray-600 py-2 items-center">
+                <BsArrowRightShort className="mr-1" /> Shopify
+              </p>
+              <p className=" flex text-gray-600 py-2 items-center">
+                <BsArrowRightShort className="mr-1" /> React | NextJS | Tailwind
               </p>
             </div>
           </div>

@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 import weatherAppPhoto from "../public/assets/projects/Weather App.png";
 import menuApp from "../public/assets/projects/Menu App.png";
-import websitePhotoOne from "../public/assets/projects/Website 1.png";
-import websitePhotoTwo from "../public/assets/projects/Website 2.png";
+// import websitePhotoOne from "../public/assets/projects/Website 1.png";
+import webDesignExamples from "../public/assets/projects/SCC-Websites.webp";
 import reviewAppPhoto from "../public/assets/projects/client review app.png";
 import faqApp from "../public/assets/projects/FAQ App.png";
 import ProjectItem from "./ProjectItem";
@@ -33,17 +33,17 @@ const Projects = () => {
             projectUrl="/menu"
             alt="Menu Application"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Small Business Website Template"
             backgroundImg={websitePhotoOne}
             skills="HTML · CSS · JavaScript"
             projectUrl="/websiteOne"
             alt="Small business Website Template"
-          />
+          /> */}
           <ProjectItem
-            title="Law Website Template"
-            backgroundImg={websitePhotoTwo}
-            skills="HTML · CSS · JavaScript"
+            title="Web Design at South County Creative"
+            backgroundImg={webDesignExamples}
+            skills="WordPress · Shopify · Ecommerce · Custom"
             projectUrl="/websiteTwo"
             alt="Law Website Template"
           />
