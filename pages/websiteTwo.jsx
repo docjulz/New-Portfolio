@@ -7,8 +7,8 @@ import { BsArrowRightShort, BsArrowReturnLeft } from "react-icons/bs";
 const websiteTwo = () => {
   return (
     <div className=" w-full">
-      <div className=" w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute z-1 object-cover object-[50%_0%] w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10"></div>
+      <div className=" w-screen h-[60vh] lg:h-[50vh] relative">
+        <div className="absolute z-1 object-cover object-[50%_0%] w-full h-[60vh] lg:h-[50vh] bg-black/70 z-10"></div>
         <Image
           className=" absolute z-1"
           layout="fill"
@@ -16,7 +16,7 @@ const websiteTwo = () => {
           object-position="top"
           src={websitePhotoTwo}
         />
-        <div className="absolute top-[70%] w-full max-w-7xl left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+        <div className="absolute top-[60%] w-full max-w-7xl left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className=" py-2">Websites built at South County Creative</h2>
           <h3>Web Development for Small Business, Nonprofits, and Startups</h3>
         </div>

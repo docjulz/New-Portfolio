@@ -32,7 +32,7 @@ const Navbar = () => {
       router.asPath === "/reviewApp" ||
       router.asPath === "/FAQapp"
     ) {
-      setNavBg("transparent");
+      setNavBg("white");
       setLinkColor("#f8f8f8");
     } else {
       setNavBg("#f0f8ff");
@@ -47,7 +47,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleshadow = () => {
-      if (window.scrollY >= 212) {
+      if (window.scrollY >= 100) {
         setShadow(true);
       } else {
         setShadow(false);
