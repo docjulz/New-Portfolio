@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
-      <div className="  fixed bg-slate-100 bottom-5 right-5 rounded-2xl hover:scale-125 ease-in duration-300 shadow-sm">
+      {/* <div className="  fixed bg-slate-100 bottom-5 right-5 rounded-2xl hover:scale-125 ease-in duration-300 shadow-sm">
         <Link href="/">
           <div className="rounded-2xl  shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:rounded-sm ease-in duration-300 ">
             <FaChevronCircleUp
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
             </p>
           </div>
         </Link>
-      </div>
+      </div> */}
     </>
   );
 }
