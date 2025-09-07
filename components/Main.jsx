@@ -36,7 +36,7 @@ const Main = () => {
           <h2 className="text-gray-50 text-xl">
             Creative Director | Digital Strategist | Web Developer
           </h2>
-          <p className=" py-4 text-gray-100 max-w-[90%] m-auto">
+          <p className=" p-4 text-gray-100  m-auto">
             I specialize in creating strategic, user-focused digital experiences
             that drive engagement and growth. With over a decade of cross-sector
             experience, I lead branding, web development, and digital
