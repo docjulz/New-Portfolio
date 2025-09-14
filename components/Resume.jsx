@@ -21,7 +21,7 @@ function Resume() {
         </p>
         <div className="flex justify-start">
           <a
-            href="\assets\Julian Miller Resume July 2025.pdf"
+            href="\assets\Resume Sept 2025.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
